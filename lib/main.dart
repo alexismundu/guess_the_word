@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Material App Bar'),
+          backgroundColor: Colors.green,
         ),
         body: Center(
           child: Home(),

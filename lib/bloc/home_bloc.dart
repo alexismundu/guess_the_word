@@ -10,7 +10,21 @@ part 'home_state.dart';
 class HomeBloc extends Bloc<HomeEvent, HomeState> {
   HomeBloc() : super(HomeInitial());
 
-  List<String> list1 = ["texto1", "texto2", "texto3"];
+  List<String> list1 = [
+    "Humanidad",
+    "Cuerpo",
+    "Adulto",
+    "Bebé",
+    "Pierna",
+    "Costa",
+    "Playa",
+    "Río",
+    "Rojo",
+    "Mar",
+    "Perro",
+    "Gato",
+    "Lagarto"
+  ];
   List<String> list2;
   int _counter = 0;
   int _index = 0;
