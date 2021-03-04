@@ -67,6 +67,6 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
   }
 
   JuegoEndState _instanceJuegoEndState() {
-    JuegoEndState(contador: _counter, titulo: endGameTitle);
+    return JuegoEndState(contador: _counter, titulo: endGameTitle);
   }
 }
