@@ -136,11 +136,12 @@ class _HomeState extends State<Home> {
             Column(
               children: [
                 Text(state.titulo),
-                SizedBox(height: 10.0),
+                SizedBox(height: 20.0),
                 Text(
                   state.contador.toString(),
-                  style: TextStyle(fontSize: 30),
+                  style: TextStyle(fontSize: 34),
                 ),
+                SizedBox(height: 70.0),
               ],
             ),
             MaterialButton(
